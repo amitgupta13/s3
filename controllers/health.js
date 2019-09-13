@@ -45,7 +45,7 @@ const healthCheck = async (req, res) => {
   console.log({ file });
 
   const params = {
-    Bucket: "sss-mech-spike-1-input",
+    Bucket: "",
     Key: "poc.csv",
     Body: file,
     ContentType: "application/octet-stream",
